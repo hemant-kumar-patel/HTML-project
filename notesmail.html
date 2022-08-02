@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+	*{margin:auto;
+	padding:0px;}
+	#main{
+	width:1200px;
+	height:800px;
+	background-color:green;
+	}
+	strong{
+	padding-left:550px;
+	font-size:40px;
+	}
+	table tr td input[type=text]{
+	width:550px;
+	padding:10px;
+	margin:10px;
+	margin-left:-135px;
+	border-bottom:1px dashed;
+	border-right:1px dashed;
+	}
+	input[name=select]{
+	margin:10px;
+	}
+	input[name=choose]{
+	margin:10px;
+	}
+	input[type=button]{
+	margin-left:550px;
+	padding:2px 8px;
+	margin-top:20px;
+	}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<strong >Lotus</strong>
+		<h5 style="text-align:center;font-size:20px;">Notes Mall CD Offer</h5>
+		<table width="100%">
+			<tr>
+				<td>
+					<label for="name">Name:</label>
+				</td>
+				<td>
+					<input type="text"name="unm" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="address">Address:</label>
+				</td>
+				<td>
+					<input type="text"name="address" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="name">E-Mail Address:</label>
+				</td>
+				<td>
+					<input type="text"name="email" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="name">Company Name:</label>
+				</td>
+				<td>
+					<input type="text"name="c_name" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="name">Company Address:</label>
+				</td>
+				<td>
+					<input type="text"name="C_address" />
+				</td>
+			</tr>
+		</table>
+		<h2>May we contact you through your e-mail address?(via the internet?)</h2>
+		<input type="radio" value="yes"name="select" />Yes
+		<input type="radio" value="No"name="select" />No<br>
+		<h2>Are you planning on upgrading or purchasing?</h2>
+		<input type="radio" value="yes"name="choose" />Upgrading
+		<input type="radio" value="No"name="choose" />Purchasing
+		<h2 style="text-align:center;">Press the "Submit" button when you have complete your form.</h2>
+		<h2 style="text-align:center;">This process address and mails your form.</h2>
+		<input type="button" value="Submit" />
+	</div>
+</body>
+</html>
